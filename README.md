@@ -64,7 +64,7 @@ docker --version
 **Via HTTPS**:
 
 ```bash
-git clone https://github.com/milenafariap/ros2_gazebo_docker_farm.git
+git clone https://github.com/Johanns123/ros2_gazebo_docker_farm.git
 cd ros2_gazebo_docker_farm
 ```
 
