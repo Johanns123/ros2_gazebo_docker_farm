@@ -11,7 +11,7 @@ Este repositório contém um ambiente de simulação agrícola utilizando **ROS 
 ```
 ros2_gazebo_docker_farm/
 ├── Dockerfile
-├── moray_ws/
+├── moray_assets/
 │   └── farm_inspection/
 │       ├── launch/
 │       ├── models/
@@ -64,7 +64,7 @@ docker --version
 **Via HTTPS**:
 
 ```bash
-git clone https://github.com/Johanns123/ros2_gazebo_docker_farm.git
+git clone https://github.com/milenafariap/ros2_gazebo_docker_farm.git
 cd ros2_gazebo_docker_farm
 ```
 
