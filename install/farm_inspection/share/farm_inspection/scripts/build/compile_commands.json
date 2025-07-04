@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/johann/Documents/GitHub/Moray_Robot_inspection/farm_inspection/scripts/build",
-  "command": "/usr/bin/g++  -I/home/johann/Documents/GitHub/Moray_Robot_inspection/farm_inspection/scripts/build -isystem /usr/include/ignition/transport11 -isystem /usr/include/ignition/cmake2 -isystem /usr/include/ignition/msgs8 -isystem /usr/include/ignition/math6 -isystem /usr/include/uuid -g -I/usr/include/uuid -o CMakeFiles/lidar_node.dir/lidar_node.cc.o -c /home/johann/Documents/GitHub/Moray_Robot_inspection/farm_inspection/scripts/lidar_node.cc",
-  "file": "/home/johann/Documents/GitHub/Moray_Robot_inspection/farm_inspection/scripts/lidar_node.cc"
-}
-]
