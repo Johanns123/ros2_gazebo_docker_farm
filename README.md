@@ -123,13 +123,13 @@ Caso queira apenas abrir o mundo sem ROS 2:
 ### Dentro do contêiner:
 
 ```bash
-ign gazebo /root/moray/moray_assets/farm_inspection/models/building_robot.sdf --verbose
+ign gazebo /root/moray/moray_assets/farm_inspection/world/farm_world.sdf --verbose
 ```
 
 Ou se estiver no host com Ignition instalado:
 
 ```bash
-ign gazebo path/to/building_robot.sdf --verbose
+ign gazebo path/to/farm_world.sdf --verbose
 ```
 
 ---
