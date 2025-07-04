@@ -117,7 +117,7 @@
         <sensor name='imu_sensor' type='imu'>
           <pose>0 0 0 0 -0 0</pose>
           <topic>imu</topic>
-          <update_rate>1</update_rate>
+          <update_rate>100</update_rate>
           <enable_metrics>false</enable_metrics>
           <imu>
             <orientation_reference_frame>

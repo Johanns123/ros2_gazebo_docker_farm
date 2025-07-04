@@ -4,7 +4,7 @@ import numpy as np
 
 
 # Caminho para seu arquivo .sdf
-sdf_path = "../world/forest.sdf"
+sdf_path = "../world/farm_world.sdf"
 
 # Lê o arquivo SDF
 tree = ET.parse(sdf_path)
