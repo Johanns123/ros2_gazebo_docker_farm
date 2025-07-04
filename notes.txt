@@ -1,0 +1,14 @@
+docker exec -it nifty_kalam bash
+Executa o docker com seu respectivo ID name
+
+docker ps
+Lista o nome do docker
+
+docker build -t ros2_gz_farm .
+build o docker
+
+xhost +local:docker
+Adiciona recurso grafico
+
+docker run -it --rm   -v ~/ros2_gazebo_docker_farm:/root/moray   -e GZ_SIM_RESOURCE_PATH=/root/moray/moray_assets/sdf_world   -e GAZEBO_MODEL_PATH=/root/moray/moray_assets/models   -e DISPLAY=$DISPLAY   -v /tmp/.X11-unix:/tmp/.X11-unix   --network host   ros2_gz_farm
+Configurações específicas para rodar este container
